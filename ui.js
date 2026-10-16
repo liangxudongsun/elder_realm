@@ -502,7 +502,7 @@ export async function showLoadModal(onLoad) {
   if (window.showOpenFilePicker) {
     try {
       const [handle] = await window.showOpenFilePicker({
-        types: [{ description: 'Elder Realm Save', accept: { 'application/json': ['.json'] } }],
+        types: [{ description: 'Questionably Brave Save', accept: { 'application/json': ['.json'] } }],
         multiple: false,
       });
       const file = await handle.getFile();
@@ -513,7 +513,7 @@ export async function showLoadModal(onLoad) {
       }
       const data = JSON.parse(text);
       if (!data || typeof data.gameState !== 'object' || !data.version) {
-        alert('Invalid save file. This doesn\'t look like an Elder Realm save.');
+        alert('Invalid save file. This doesn\'t look like a Questionably Brave save.');
         return;
       }
       onLoad(data);
@@ -558,7 +558,7 @@ export async function showLoadModal(onLoad) {
         }
         const data = JSON.parse(e.target.result);
         if (!data || typeof data.gameState !== 'object' || !data.version) {
-          info.innerHTML = '<strong>Invalid save file.</strong> This doesn\'t look like an Elder Realm save.';
+          info.innerHTML = '<strong>Invalid save file.</strong> This doesn\'t look like a Questionably Brave save.';
           info.classList.add('active');
           confirmBtn.disabled = true;
           parsedData = null;

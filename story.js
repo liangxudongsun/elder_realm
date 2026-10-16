@@ -10,7 +10,7 @@ export function initStory(worldName, party, worldSeed) {
     return `- **${c.name}** — ${c.race} ${c.cls}, Level ${c.level}. ${role}`;
   }).join('\n');
 
-  const content = `# Chronicles of the Elder Realm
+  const content = `# Questionably Brave
 
 ## World: ${worldName}
 **Generated:** ${timestamp}

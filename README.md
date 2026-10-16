@@ -1,4 +1,4 @@
-# Chronicles of the Elder Realm
+# Questionably Brave
 
 A solo high-fantasy D&D 5e-inspired text adventure where AI acts as your Dungeon Master.
 

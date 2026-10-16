@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Chronicles of the Elder Realm is a solo high-fantasy D&D 5e text adventure with a multi-provider AI Dungeon Master. It's a browser-based game with no build step, no dependencies, and no framework — pure vanilla JS (ES modules), HTML, and CSS.
+Questionably Brave is a solo high-fantasy D&D 5e text adventure with a multi-provider AI Dungeon Master. It's a browser-based game with no build step, no dependencies, and no framework — pure vanilla JS (ES modules), HTML, and CSS.
 
 The player controls one hero with three AI-generated companions. AI provider APIs (Anthropic, OpenAI, Gemini, xAI) are called directly from the browser via `fetch()`. Game state and a running narrative log are persisted to `localStorage`.
 

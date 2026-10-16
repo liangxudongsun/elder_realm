@@ -1,8 +1,8 @@
-# Chronicles of the Elder Realm — User Manual
+# Questionably Brave — User Manual
 
 ## What Is This Game?
 
-Chronicles of the Elder Realm is a solo high-fantasy text adventure inspired by classic D&D 5th Edition. An AI Dungeon Master narrates your story in vivid Tolkien-style prose, responding to your choices, tracking your party, and running combat encounters — all in your browser.
+Questionably Brave is a solo high-fantasy text adventure inspired by classic D&D 5th Edition. An AI Dungeon Master narrates your story in vivid Tolkien-style prose, responding to your choices, tracking your party, and running combat encounters — all in your browser.
 
 You control one hero and three AI-generated companions. Every choice you make shapes the story. There is no predetermined plot — the adventure is uniquely yours.
 

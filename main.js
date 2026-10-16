@@ -14,8 +14,8 @@ import { recordUsage, renderBudgetDisplay } from './budget.js';
 // ── World Name Generation ──────────────────────────────────────────────────
 
 const WORLD_NAMES = [
-  'Aethermoor','Valdrath','Neverstone','Ironspire Realm','Duskwood','The Elder Realm',
-  'Thornveil','Ashendarr','Grimwatch','The Sunken Lands','Vaeloria','Morrowind',
+  'Aethermoor','Valdrath','Neverstone','Ironspire Realm','Duskwood','The Hollow Realm',
+  'Thornveil','Ashendarr','Grimwatch','The Sunken Lands','Vaeloria','Nomorewind',
   'Shadowmere','The Broken Crown','Aldenmoor'
 ];
 
@@ -26,7 +26,7 @@ function generateWorldName() {
 // ── Game State ─────────────────────────────────────────────────────────────
 
 let gameState = {
-  worldName: 'The Elder Realm',
+  worldName: 'The Hollow Realm',
   worldSeed: Math.floor(Math.random() * 99999),
   currentLocation: 'The Road to Adventure',
   weather: '',
@@ -108,7 +108,7 @@ async function exportSave() {
     try {
       const handle = await window.showSaveFilePicker({
         suggestedName: fileName,
-        types: [{ description: 'Elder Realm Save', accept: { 'application/json': ['.json'] } }],
+        types: [{ description: 'Questionably Brave Save', accept: { 'application/json': ['.json'] } }],
       });
       const writable = await handle.createWritable();
       await writable.write(blob);
